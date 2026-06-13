@@ -2045,7 +2045,7 @@ entities:
   - uid: 127
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
+      rot: 1.5707963267948966 rad
       pos: -1.5,-20.5
       parent: 1
   - uid: 128
@@ -5871,7 +5871,7 @@ entities:
     - type: Transform
       pos: 9.5,-13.5
       parent: 1
-- proto: SuitStorageMercenary
+- proto: SuitStorageEVAMercenary
   entities:
   - uid: 672
     components:
