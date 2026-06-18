@@ -2726,9 +2726,6 @@ entities:
     - type: Transform
       pos: 2.5,-13.25
       parent: 2
-    - type: Physics
-      canCollide: False
-      bodyType: Static
 - proto: DisposalBend
   entities:
   - uid: 368
