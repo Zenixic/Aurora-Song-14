@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 270.1.0
+  engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/06/2026 03:55:35
-  entityCount: 6467
+  time: 06/24/2026 03:11:55
+  entityCount: 6469
 maps: []
 grids:
 - 1
@@ -3545,11 +3545,6 @@ entities:
             2183: 10,-23
             2184: 11,-23
             4250: 20,3
-        - node:
-            zIndex: -1
-            color: '#E37B408E'
-            id: OffsetCheckerAOverlay
-          decals:
             4349: -5,-18
             4350: -4,-18
             4351: -4,-17
@@ -3788,11 +3783,6 @@ entities:
             2155: 10,-29
             2156: 11,-29
             4251: 20,3
-        - node:
-            zIndex: -1
-            color: '#152A5C8E'
-            id: OffsetCheckerBOverlay
-          decals:
             4357: -4,-18
             4358: -5,-18
             4359: -5,-17
@@ -6904,12 +6894,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 17.5,-5.5
       parent: 1
-    - type: Door
-      secondsUntilStateChange: -193620.55
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 3175
     components:
     - type: Transform
@@ -6962,27 +6946,11 @@ entities:
     - type: Transform
       pos: -2.5,2.5
       parent: 1
-    - type: AccessReader
-      accessListsOriginal: []
-    - type: Door
-      secondsUntilStateChange: -208966.88
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 3468
     components:
     - type: Transform
       pos: -1.5,3.5
       parent: 1
-    - type: AccessReader
-      accessListsOriginal: []
-    - type: Door
-      secondsUntilStateChange: -166815.02
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 3469
     components:
     - type: Transform
@@ -7008,12 +6976,6 @@ entities:
     - type: Transform
       pos: -11.5,1.5
       parent: 1
-    - type: Door
-      secondsUntilStateChange: -208970.4
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 3474
     components:
     - type: Transform
@@ -7024,12 +6986,6 @@ entities:
     - type: Transform
       pos: -11.5,-0.5
       parent: 1
-    - type: Door
-      secondsUntilStateChange: -209751.92
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 3476
     components:
     - type: Transform
@@ -7060,12 +7016,6 @@ entities:
     - type: Transform
       pos: -17.5,-2.5
       parent: 1
-    - type: Door
-      secondsUntilStateChange: -211079.97
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 3484
     components:
     - type: Transform
@@ -7166,12 +7116,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 5.5,9.5
       parent: 1
-    - type: Door
-      secondsUntilStateChange: -192753.92
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
   - uid: 4188
     components:
     - type: Transform
@@ -14587,6 +14531,16 @@ entities:
     components:
     - type: Transform
       pos: -5.5,-16.5
+      parent: 1
+  - uid: 6468
+    components:
+    - type: Transform
+      pos: -11.5,-48.5
+      parent: 1
+  - uid: 6469
+    components:
+    - type: Transform
+      pos: 12.5,-48.5
       parent: 1
 - proto: CableHV
   entities:
@@ -33902,25 +33856,16 @@ entities:
     - type: Transform
       pos: -1.5,33.5
       parent: 1
-    - type: Door
-      secondsUntilStateChange: -218065.03
-      state: Opening
   - uid: 3347
     components:
     - type: Transform
       pos: 0.5,33.5
       parent: 1
-    - type: Door
-      secondsUntilStateChange: -218063.39
-      state: Opening
   - uid: 3348
     components:
     - type: Transform
       pos: 2.5,33.5
       parent: 1
-    - type: Door
-      secondsUntilStateChange: -218062.03
-      state: Opening
 - proto: HospitalCurtainsOpen
   entities:
   - uid: 1013
@@ -45020,14 +44965,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 4.5,31.5
       parent: 1
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
-    - type: Door
-      secondsUntilStateChange: -217100.7
-      state: Opening
-    - type: Airlock
-      autoClose: False
   - uid: 3988
     components:
     - type: Transform
